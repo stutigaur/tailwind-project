@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md fixed w-full z-10">
+    <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+      <h1 class="text-xl font-bold">My Portfolio</h1>
+      <div class="space-x-4">
+        <a href="#home" class="hover:text-blue-500">Home</a>
+        <a href="#about" class="hover:text-blue-500">About</a>
+        <a href="#projects" class="hover:text-blue-500">Projects</a>
+        <a href="#contact" class="hover:text-blue-500">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="h-screen flex flex-col items-center justify-center text-center bg-gray-50 pt-20">
+    <img src="C:\Users\deepa\Downloads\website tailwind\images/avtar.png" alt="Profile" class="w-32 h-32 rounded-full mb-4" />
+    <h1 class="text-4xl font-bold">Hi, I'm Stuti Gaur</h1>
+    <p class="text-lg mt-2">Web Developer | UI/UX Enthusiast</p>
+    <p class="text-blue-500 italic mt-1">"Building web experiences that matter."</p>
+    <a href="#" class="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Download Resume</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 px-4 bg-white">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold mb-6 text-center">About Me</h2>
+      <p class="text-lg mb-6">
+        I am a passionate web developer with a strong interest in responsive design, clean code, and user-centric web applications.I enjoy turning complex problems into elegant solutions          
+         using modern frontend tools.
+      </p>
+      <h3 class="text-xl font-semibold mb-2">Skills</h3>
+      <ul class="list-disc list-inside mb-6">
+        <li>HTML</li>
+        <li>CSS / Tailwind CSS</li>
+        <li>JavaScript</li>
+      </ul>
+      <h3 class="text-xl font-semibold mb-2">Education / Experience</h3>
+      <ul class="list-disc list-inside">
+        <li>Completed Web Development Bootcamp at DevTown</li>
+        <li>Created multiple frontend projects using Tailwind CSS</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-16 px-4 bg-gray-50">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl font-bold mb-10 text-center">Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        
+        <!-- Project 1 -->
+        <div class="bg-white p-4 rounded-lg shadow hover:scale-105 hover:shadow-lg transition">
+          <img src="C:\Users\deepa\Downloads\website tailwind\images\Project 1.png" alt="Project 1" class="w-full h-40 object-cover mb-4">
+          <h3 class="text-xl font-semibold">Portfolio Website</h3>
+          <p class="text-gray-600 mb-2">Built using HTML and Tailwind CSS. A responsive personal portfolio website.</p>
+          <a href="#" class="text-blue-500 underline">GitHub Repo</a>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="bg-white p-4 rounded-lg shadow hover:scale-105 hover:shadow-lg transition">
+          <img src="C:\Users\deepa\Downloads\website tailwind\images\Project 2.png" alt="Project 2" class="w-full h-40 object-cover mb-4">
+          <h3 class="text-xl font-semibold">Landing Page</h3>
+          <p class="text-gray-600 mb-2">Designed a product landing page layout with Tailwind grid and flex utilities.</p>
+          <a href="#" class="text-blue-500 underline">GitHub Repo</a>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="bg-white p-4 rounded-lg shadow hover:scale-105 hover:shadow-lg transition">
+          <img src="C:\Users\deepa\Downloads\website tailwind\images\Project3.png" alt="Project 3" class="w-full h-40 object-cover mb-4">
+          <h3 class="text-xl font-semibold">Blog Template</h3>
+          <p class="text-gray-600 mb-2">Created a clean blog homepage using Tailwind typography plugin.</p>
+          <a href="#" class="text-blue-500 underline">GitHub Repo</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 px-4 bg-white">
+    <div class="max-w-xl mx-auto">
+      <h2 class="text-3xl font-bold mb-6 text-center">Contact Me</h2>
+      <form class="space-y-4">
+        <input type="text" placeholder="Name" class="w-full border border-gray-300 px-4 py-2 rounded" />
+        <input type="email" placeholder="Email" class="w-full border border-gray-300 px-4 py-2 rounded" />
+        <textarea placeholder="Message" class="w-full border border-gray-300 px-4 py-2 rounded h-32"></textarea>
+        <button type="submit" class="bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-4 bg-gray-100 mt-10">
+    <p>© 2025 [Your Name] | Built with Tailwind CSS</p>
+  </footer>
+
+</body>
+</html>
